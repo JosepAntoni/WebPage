@@ -1,19 +1,18 @@
-
-
 <ul id="slide-out" class="sidenav">
   <li><div class="user-view">
     <div class="background">
       <img src="../../../assets/img/garden.jpg">
     </div>
-    <a href="#user"><img class="circle" src="../../../assets/img/me.jpg"></a>
-    <a href="#name"><span class="white-text name">Josep Antoni Costa Camps</span></a>
-    <a href="#email"><span class="white-text email">costacamps8@gmail.com</span></a>
+    <a><img class="circle" src="../../../assets/img/me.jpg"></a>
+    <a><span class="white-text name">Josep Antoni Costa Camps</span></a>
+    <a><span class="white-text email">costacamps8@gmail.com</span></a>
   </div></li>
-  <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-  <li><a href="#!">Second Link</a></li>
-  <li><div class="divider"></div></li>
-  <li><a class="subheader">Subheader</a></li>
-  <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  <li><a [routerLink]="['/home']"><i class="material-icons">home</i>Home</a></li>
+  <!--<li><a [routerLink]="['/about']"><i class="material-icons">home</i>About</a></li>-->
+  <li><a class="subheader">Contact</a></li>
+    <a href="https://github.com/JosepAntoni"><img src="../../../assets/img/contact/GitHub-Mark-32px.png" class="icons"></a>
+    <a href="https://www.instagram.com/costacamps8"><img src="../../../assets/img/contact/Instagram.png" class="icons"></a>
+    <a href="https://twitter.com/jacc54922755"><img src="../../../assets/img/contact/twitter.jpg" class="icons"></a>
 </ul>
 <nav>
   <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large">
