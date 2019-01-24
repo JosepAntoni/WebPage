@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as M from 'materialize-css';
 
 @Component({
   selector: 'app-home',
@@ -10,6 +11,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    M.AutoInit();
   }
 
 }
