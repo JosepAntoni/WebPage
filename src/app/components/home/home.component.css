@@ -1,6 +1,7 @@
 .text-container{
   text-align: center;
   margin-top: 50px;
+  text-align-all: center;
 }
 
 a {
@@ -12,4 +13,25 @@ h5{
   text-indent: 50px;
   text-align: justify;
   letter-spacing: 2px;
+}
+
+.image{
+  height:100%;
+  background-image:url('../../../assets/img/background.jpg');
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tittle {
+  text-align: center;
+  color: aliceblue;
+}
+
+.front-image {
+  width: 20%;
+  text-align: center;
+  border-radius: 50%;
 }
