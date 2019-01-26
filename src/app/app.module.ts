@@ -7,6 +7,7 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { AboutComponent } from './components/about/about.component';
 import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CareerComponent } from './components/career/career.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { FooterComponent } from './components/footer/footer.component';
     AboutComponent,
     HomeComponent,
     FooterComponent,
+    CareerComponent,
   ],
   imports: [
     BrowserModule,
