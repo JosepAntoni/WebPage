@@ -16,22 +16,20 @@ h5{
 }
 
 .image{
-  height:88%;
-  background-image:url('../../../assets/img/background.jpg');
-
+  height: 100%;
+  background-image:url('../../../assets/img/tree.jpeg');
   /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .tittle {
   text-align: center;
-  color: aliceblue;
+  color: black;
 }
 
-.front-image {
-  width: 20%;
-  text-align: center;
+.front-header {
+  width: 50%;
+  margin-top: 50%;
   border-radius: 50%;
+  background: rgba(255,255,255,0.5)
 }
